@@ -1,0 +1,29 @@
+applicantId,fullName,gpa,annualFamilyIncome,residencyRegion,submittedAt,gpaVerifiedAt,incomeVerifiedAt,residencyVerifiedAt,notes
+SW-001,Aarav Sharma,8.5,180000,Karnataka,2026-10-01,2026-09-21,2026-09-21,2026-09-21,Fictional applicant. Synthetic demonstration data.
+SW-002,Diya Rao,6,180000,Karnataka,2026-10-01,2026-09-21,2026-09-21,2026-09-21,Fictional applicant. Synthetic demonstration data.
+SW-003,Ishaan Nair,7.2,180000,Karnataka,2026-10-01,2026-09-21,2026-09-21,2026-09-21,Fictional applicant. Synthetic demonstration data.
+SW-004,Ananya Reddy,8.5,275000,Karnataka,2026-10-01,2026-09-21,2026-09-21,2026-09-21,Fictional applicant. Synthetic demonstration data.
+SW-005,Vihaan Patel,,180000,Karnataka,2026-10-01,2026-09-21,2026-09-21,2026-09-21,Fictional applicant. Synthetic demonstration data.
+SW-006,Meera Iyer,8.5,,Karnataka,2026-10-01,2026-09-21,2026-09-21,2026-09-21,Fictional applicant. Synthetic demonstration data.
+SW-007,Arjun Das,8.5,180000,,2026-10-01,2026-09-21,2026-09-21,2026-09-21,Fictional applicant. Synthetic demonstration data.
+SW-008,Kavya Menon,8.5,180000,Karnataka,2026-10-01,2026-09-21,2026-02-13,2026-09-21,Fictional applicant. Synthetic demonstration data.
+SW-009,Aditya Joshi,8.5,180000,Karnataka,2026-10-01,2026-09-21,2026-09-21,2025-09-06,Fictional applicant. Synthetic demonstration data.
+SW-010,Sana Khan,8.5,180000,Karnataka,2026-10-01,2025-09-06,2026-09-21,2026-09-21,Fictional applicant. Synthetic demonstration data.
+SW-011,Rohan Gupta,12,180000,Karnataka,2026-10-01,2026-09-21,2026-09-21,2026-09-21,Fictional applicant. Synthetic demonstration data.
+SW-012,Tara Bhat,8.5,"'-1000",Karnataka,2026-10-01,2026-09-21,2026-09-21,2026-09-21,Fictional applicant. Synthetic demonstration data.
+SW-025,Nikhil Shetty,8.5,180000,Karnataka,2026-10-01,2026-09-21,2026-09-21,2026-09-21,Fictional applicant. Synthetic demonstration data.
+SW-014,Anika Singh,8.5,180000,Karnataka,2026-10-01,2026-09-21,2026-09-21,2026-09-21,
+SW-015,Dev Kulkarni,7.5,180000,Karnataka,2026-10-01,2026-09-21,2026-09-21,2026-09-21,Fictional applicant. Synthetic demonstration data.
+SW-016,Riya Shah,8.5,250000,Karnataka,2026-10-01,2026-09-21,2026-09-21,2026-09-21,Fictional applicant. Synthetic demonstration data.
+SW-017,Kabir Sinha,8.5,180000,Tamil Nadu,2026-10-01,2026-09-21,2026-09-21,2026-09-21,Fictional applicant. Synthetic demonstration data.
+SW-018,Avni Hegde,8.5,180000,Karnataka,2026-10-01,,2026-09-21,2026-09-21,Fictional applicant. Synthetic demonstration data.
+SW-019,Siddharth Jain,,,Karnataka,2026-10-01,2026-09-21,2026-09-21,2026-09-21,Fictional applicant. Synthetic demonstration data.
+SW-020,Pooja Prasad,6,,Karnataka,2026-10-01,2026-09-21,2026-09-21,2026-09-21,Fictional applicant. Synthetic demonstration data.
+SW-021,Vivan Kumar,7.2,,Karnataka,2026-10-01,2026-09-21,2026-09-21,2026-09-21,Fictional applicant. Synthetic demonstration data.
+SW-022,Naina Desai,7.8,180000,Karnataka,2026-10-01,2026-09-21,2026-09-21,,Fictional applicant. Synthetic demonstration data.
+SW-023,Aditi Gowda,8.5,200000,Karnataka,2026-10-01,2026-09-21,2026-02-13,2026-09-21,Guided demo: verify updated income of 280000 to reveal a confirmed policy loss.
+SW-024,Rehan Ali,8.5,180000,Karnataka,2026-10-01,2026-09-21,2026-09-21,2026-09-21,Fictional applicant. Synthetic demonstration data.
+SW-025,Tanvi Bose,8.5,180000,Karnataka,2026-10-01,2026-09-21,2026-09-21,2026-09-21,Fictional applicant. Synthetic demonstration data.
+SW-026,Pranav Rao,7,180000,Karnataka,2026-10-01,2026-09-21,2026-09-21,2026-09-21,Fictional applicant. Synthetic demonstration data.
+SW-027,Sara Thomas,6.8,180000,Karnataka,2026-10-01,2026-09-21,2026-09-21,2026-09-21,Fictional applicant. Synthetic demonstration data.
+SW-028,Yash Verma,8.5,325000,Karnataka,2026-10-01,2026-09-21,2026-09-21,2026-09-21,Fictional applicant. Synthetic demonstration data.

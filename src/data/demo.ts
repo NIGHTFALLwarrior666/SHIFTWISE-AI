@@ -1,0 +1,11 @@
+import { Applicant, ingest, defaultPolicies, Policy } from '../engine';
+export const presets:Record<string,[Policy,Policy]>={Stricter:defaultPolicies,Relaxed:[defaultPolicies[1],{minGpa:6.5,maxIncome:350000,region:'Karnataka'}],Mixed:[defaultPolicies[0],{minGpa:7.5,maxIncome:350000,region:'Karnataka'}]};
+export function demoRows(now=Date.now()):Applicant[] {
+ const day=(age:number)=>new Date(now-age*86400000).toISOString().slice(0,10);
+ const names=['Aarav Sharma','Diya Rao','Ishaan Nair','Ananya Reddy','Vihaan Patel','Meera Iyer','Arjun Das','Kavya Menon','Aditya Joshi','Sana Khan','Rohan Gupta','Tara Bhat','Nikhil Shetty','Anika Singh','Dev Kulkarni','Riya Shah','Kabir Sinha','Avni Hegde','Siddharth Jain','Pooja Prasad','Vivan Kumar','Naina Desai','Aditi Gowda','Rehan Ali','Tanvi Bose','Pranav Rao','Sara Thomas','Yash Verma'];
+ const rows=names.map((fullName,i)=>({applicantId:`SW-${String(i+1).padStart(3,'0')}`,fullName,gpa:'8.5',annualFamilyIncome:'180000',residencyRegion:'Karnataka',submittedAt:day(10),gpaVerifiedAt:day(20),incomeVerifiedAt:day(20),residencyVerifiedAt:day(20),notes:'Fictional applicant. Synthetic demonstration data.'}));
+ const patch=(i:number,p:Partial<Applicant>)=>Object.assign(rows[i-1],p);
+ patch(2,{gpa:'6'});patch(3,{gpa:'7.2'});patch(4,{annualFamilyIncome:'275000'});patch(5,{gpa:''});patch(6,{annualFamilyIncome:''});patch(7,{residencyRegion:''});patch(8,{incomeVerifiedAt:day(240)});patch(9,{residencyVerifiedAt:day(400)});patch(10,{gpaVerifiedAt:day(400)});patch(11,{gpa:'12'});patch(12,{annualFamilyIncome:'-1000'});patch(13,{applicantId:'SW-025'});patch(14,{notes:''});patch(15,{gpa:'7.5'});patch(16,{annualFamilyIncome:'250000'});patch(17,{residencyRegion:'Tamil Nadu'});patch(18,{gpaVerifiedAt:''});patch(19,{gpa:'',annualFamilyIncome:''});patch(20,{gpa:'6',annualFamilyIncome:''});patch(21,{gpa:'7.2',annualFamilyIncome:''});patch(22,{gpa:'7.8',residencyVerifiedAt:''});patch(23,{annualFamilyIncome:'200000',incomeVerifiedAt:day(240),notes:'Guided demo: verify updated income of 280000 to reveal a confirmed policy loss.'});patch(26,{gpa:'7'});patch(27,{gpa:'6.8'});patch(28,{annualFamilyIncome:'325000'});
+ return rows;
+}
+export const demoImport=()=>ingest(demoRows());
